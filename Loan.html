@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script
+            src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous">
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="../../AppData/Local/Temp/bootstrap.js"></script>
+
+    <meta charset="UTF-8">
+    <title>Loan Status Checker</title>
+</head>
+<body>
+
+<fieldset>
+    <legend>Check Your Loan Status</legend>
+
+    <form id="LoanForm">
+
+        <div class="form-group">
+            <label for="salaryForm">Enter Your Salary</label>
+            <input name="salary" id="salaryForm" type="number" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label for="creditScoreForm">Enter Your Credit Score</label>
+            <input name="score" id="creditScoreForm" type="number" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label for="jobMonthsForm">Enter how Long You've been Working</label>
+            <input name="months" id="jobMonthsForm" type="number" class="form-control">
+        </div>
+
+        <button class="btn btn-primary">Calculate</button>
+    </form>
+</fieldset>
+
+<p id="finalAnswer"></p>
+
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+<script src="Loan.js"></script>
+
+</html>
